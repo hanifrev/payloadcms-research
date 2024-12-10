@@ -359,7 +359,7 @@ export interface ContentBlock {
   id: string;
   blockType: 'basic' | 'list' | 'categoryBlock' | 'post' | 'testimonial';
   title?: string | null;
-  slug?: string | null;
+  slug: string;
   customAttributes?:
     | {
         key: string;
